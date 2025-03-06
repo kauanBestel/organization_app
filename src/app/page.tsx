@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { TestComponent } from "@/features/test";
 export default function Home() {
   return (
     <div className="flex gap-4">
@@ -11,7 +10,6 @@ export default function Home() {
       <Button variant="ghost">Ghost</Button>
       <Button variant="muted">Muted</Button>
       <Button variant="teritary">Teritrary</Button>
-      <TestComponent></TestComponent>
     </div>
   );
 }
